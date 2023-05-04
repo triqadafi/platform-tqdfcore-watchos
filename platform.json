@@ -1,0 +1,76 @@
+{
+  "name": "tqdfcore_watchos",
+  "title": "TQDFCore WatchOS",
+  "description": "TQDFCore is optimized framework for AEONF Boards. Based on version 15.4.1 (ststm32)",
+  "homepage": "https://triqada.fi/",
+  "license": "Apache-2.0",
+  "keywords": [
+    "dev-platform",
+    "ARM",
+    "Cortex-M",
+    "STMicroelectronics",
+    "STM32"
+  ],
+  "engines": {
+    "platformio": "^5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/triqadafi/platform-tqdfcorestm32.git"
+  },
+  "version": "1.0.0",
+  "frameworks": {
+    "arduino": {
+      "package": "framework-tqdfcore-watchos",
+      "script": "builder/frameworks/arduino.py",
+      "description": "Arduino Wiring-based Framework allows writing cross-platform software to control devices attached to a wide range of Arduino boards to create all kinds of creative coding, interactive objects, spaces or physical experiences",
+      "homepage": "http://arduino.cc/en/Reference/HomePage",
+      "title": "Arduino"
+    }
+  },
+  "packages": {
+    "framework-tqdfcore-watchos": {
+      "type": "framework",
+      "optional": true,
+      "owner": "platformio",
+      "version": "~1.0.0"
+    },
+    "toolchain-gccarmnoneeabi": {
+      "type": "toolchain",
+      "owner": "platformio",
+      "version": ">=1.60301.0,<1.80000.0",
+      "optionalVersions": [
+        "~1.60301.0",
+        "~1.80201.0",
+        "~1.90201.0"
+      ]
+    },
+    "framework-cmsis": {
+      "type": "framework",
+      "optional": true,
+      "owner": "platformio",
+      "version": "~2.50501.0",
+      "optionalVersions": [
+        "~2.50700.0"
+      ]
+    },
+    "tool-tqdfcore": {
+      "type": "uploader",
+      "optional": true,
+      "owner": "platformio",
+      "version": "~1.1.0"
+    },
+    "tool-stm32duino": {
+      "type": "uploader",
+      "optional": true,
+      "owner": "platformio",
+      "version": "~1.0.1"
+    },
+    "tool-dfuutil": {
+      "type": "uploader",
+      "optional": true,
+      "owner": "platformio",
+      "version": "~1.11.0"
+    }
+  }
+}

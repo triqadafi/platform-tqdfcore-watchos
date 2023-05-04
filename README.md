@@ -1,0 +1,1 @@
+# TQDFCore WatchOS development platform for [PlatformIO](https://platformio.org)
