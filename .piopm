@@ -1,5 +1,1 @@
-{
-  "type": "platform", 
-  "name": "tqdfcore_watchos", 
-  "version": "1.0.0"
-}
+{"type": "platform", "name": "tqdfcore_watchos", "version": "1.0.0", "spec": {"owner": null, "id": null, "name": "platform-tqdfcore-watchos", "requirements": null, "uri": "file://C:/Users/triqa/Desktop/_SANDBOX/platform-tqdfcore-watchos"}}
